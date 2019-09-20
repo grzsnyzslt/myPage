@@ -59,40 +59,26 @@ html {
 
 body {
  height: 100vh;
+  width: 100vw;
  background-image: url(bg.jpg);
 }
 
-.keret {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-  color: #F9F871;
-  
-}
 
 .article {
-  text-align: center;
-  margin-bottom: 2rem;
-  border: 1px solid #F9F871;
-  border-radius: 10px;
-  width: 40rem;
-  max-width: calc(100vw - 10px);
+  margin-left: 1rem;
+  margin-top: 11rem;
 }
-
 
 .article h1 {
   font-size: 2.5rem;
   font-family: fantasy;
-  padding: 1rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  text-align: center;
 }
 
 .article p {
-  font-size: 1.25rem;
+  font-size: 1.10rem;
   margin-bottom: 2rem;
 }
 
@@ -105,12 +91,29 @@ body {
   color: black;
 }
 
+.about {
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.tanulmany {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 .article img {
   display: block;
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: auto;
-  margin-top: 1rem;
-  border-radius: 200px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 30px;
   border: 1px solid #F9F871;
   transition: all 0.5s ease-in-out;
   filter: grayscale(60%);
@@ -133,7 +136,8 @@ body {
   position: absolute;
   top:0;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
   
 }
 
@@ -178,8 +182,12 @@ nav a {
     float: left;
   }
   
+  .article h1 {
+    font-size: 3rem;
+  }
   .article {
     top: 200px;
+    text-align: none;
   }
 }
 
@@ -199,14 +207,11 @@ nav a:hover {
 }
 
 
-.tabla {
-  
+table {
+  margin-bottom: 0.25rem;
 }
 
-table {
-  margin-bottom: 1rem;
-}
-  
+
 hr {
   height: 2px;
   color: #F9F871;
@@ -217,7 +222,7 @@ hr {
 footer {
   position: absolute;
   width: 100vw;
-  height: 50px;
+  height: ;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
